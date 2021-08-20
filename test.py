@@ -71,7 +71,7 @@ def measurement_table(original, target):
       img2[:,:,0] = diff
       img2[:,:,1] = diff
       img2[:,:,2] = diff
-      print(img2.shape)
+
       """ 이미지 합치기 """
       output = np.hstack((original_copy, target_copy, img2))
 
