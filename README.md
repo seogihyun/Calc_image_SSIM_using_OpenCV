@@ -1,1 +1,4 @@
-# Calc_image_SSIM_using_OpenCV
+## Test
+```bash
+python test.py
+```
