@@ -26,10 +26,10 @@ def measurement_table(original, target):
     height = int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT))
     fourcc = cv2.VideoWriter_fourcc(*'MPEG')
 
-    print(fps, width, height, fourcc)
-    targte_name = '{name}_{title}.{extension}'.format(name='Gihyun', title=str(name), extension=str(extension))
-    print(targte_name)
-    out = cv2.VideoWriter(targte_name, fourcc, fps, (width//2*3, height))
+    """ 저장 이름 """
+    target_name = '{name}_{title}.{extension}'.format(name='Gihyun', title=str(name), extension=str(extension))
+
+    out = cv2.VideoWriter(target_name, fourcc, fps, (width//2*3, height))
   except:
     print('Try again!')
     return
