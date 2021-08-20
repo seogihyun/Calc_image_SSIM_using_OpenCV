@@ -1,0 +1,1 @@
+# Calc_image_SSIM_using_OpenCV
